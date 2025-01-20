@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="NotificationPermission">
+        <location id="class"
+            file="$GRADLE_USER_HOME/caches/8.9/transforms/bde283891393b385afff4eaf28c432f8/transformed/leakcanary-android-core-2.10/jars/classes.jar"/>
+        <entry
+            name="className"
+            string="leakcanary/NotificationEventListener"/>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="id[main(D),rv_favorite_vertcal(D),progressBar(U),tvNoFavorites(U)],layout[activity_favorite_dynamic(U)],string[title_favorite(R),data_favorite_tidak_ada(U)];4^6;;;"/>
+    </map>
+
+</incidents>

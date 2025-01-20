@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="conditional_incidents">
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:core*debug*MAIN*sourceProvider*0*resDir*0}/drawable/baseline_favorite_24.xml"
+            line="3"
+            column="30"
+            startOffset="225"
+            endLine="3"
+            endColumn="50"
+            endOffset="245"/>
+        <map>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:core*debug*MAIN*sourceProvider*0*resDir*0}/drawable/baseline_favorite_border_24.xml"
+            line="3"
+            column="30"
+            startOffset="225"
+            endLine="3"
+            endColumn="50"
+            endOffset="245"/>
+        <map>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:core*debug*MAIN*sourceProvider*0*resDir*0}/drawable/baseline_keyboard_backspace_24.xml"
+            line="1"
+            column="68"
+            startOffset="67"
+            endLine="1"
+            endColumn="88"
+            endOffset="87"/>
+        <map>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="message"
+                string="This attribute is not supported in images generated from this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:core*debug*MAIN*sourceProvider*0*resDir*0}/drawable/baseline_keyboard_backspace_24.xml"
+            line="3"
+            column="30"
+            startOffset="253"
+            endLine="3"
+            endColumn="50"
+            endOffset="273"/>
+        <map>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:core*debug*MAIN*sourceProvider*0*resDir*0}/drawable/baseline_keyboard_backspace_24_white.xml"
+            line="1"
+            column="68"
+            startOffset="67"
+            endLine="1"
+            endColumn="88"
+            endOffset="87"/>
+        <map>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="message"
+                string="This attribute is not supported in images generated from this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:core*debug*MAIN*sourceProvider*0*resDir*0}/drawable/baseline_keyboard_backspace_24_white.xml"
+            line="3"
+            column="30"
+            startOffset="253"
+            endLine="3"
+            endColumn="50"
+            endOffset="273"/>
+        <map>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+        </map>
+    </incident>
+
+</incidents>

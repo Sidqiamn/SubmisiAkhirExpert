@@ -1,0 +1,40 @@
+com.example.shared.databinding.ItemNewsBinding:
+    public static com.example.shared.databinding.ItemNewsBinding inflate(android.view.LayoutInflater)
+com.example.shared.model.News$Creator
+com.example.shared.model.News
+com.example.shared.presentation.NewsAdapter$Companion:
+    public final androidx.recyclerview.widget.DiffUtil$ItemCallback getDIFF_CALLBACK()
+com.example.shared.databinding.ActivityDetailEventBinding:
+    public final androidx.constraintlayout.widget.ConstraintLayout main
+    public static android.widget.ScrollView getRoot()
+com.example.shared.databinding.ItemNewsBinding:
+    public static androidx.cardview.widget.CardView getRoot()
+com.example.shared.presentation.DetailEventActivity$special$$inlined$viewModel$default$1:
+    public final synthetic kotlin.jvm.functions.Function0 $extrasProducer
+    public final synthetic kotlin.jvm.functions.Function0 $parameters
+    public final synthetic org.koin.core.qualifier.Qualifier $qualifier
+com.example.shared.presentation.DetailEventViewModel$updateBookmark$1:
+    public static java.lang.Object invoke()
+com.example.shared.presentation.DetailEventViewModel:
+    public static void updateBookmark()
+com.example.shared.presentation.NewsAdapter$Companion$DIFF_CALLBACK$1:
+    public static boolean areContentsTheSame()
+    public static boolean areItemsTheSame()
+com.example.shared.presentation.NewsViewModel$deleteNews$1:
+    public static java.lang.Object invoke()
+com.example.shared.presentation.NewsViewModel$fetchBookmarkedNews$1$1:
+    public int label
+    public static java.lang.Object invoke()
+com.example.shared.presentation.NewsViewModel$fetchBookmarkedNews$1$2:
+    public static java.lang.Object emit()
+com.example.shared.presentation.NewsViewModel$fetchBookmarkedNews$1:
+    public static java.lang.Object invoke()
+com.example.shared.presentation.NewsViewModel$fetchHeadlineNews$1$1:
+    public int label
+    public static java.lang.Object invoke()
+com.example.shared.presentation.NewsViewModel$fetchHeadlineNews$1$2:
+    public static java.lang.Object emit()
+com.example.shared.presentation.NewsViewModel$fetchHeadlineNews$1:
+    public static java.lang.Object invoke()
+com.example.shared.presentation.NewsViewModel$saveNews$1:
+    public static java.lang.Object invoke()

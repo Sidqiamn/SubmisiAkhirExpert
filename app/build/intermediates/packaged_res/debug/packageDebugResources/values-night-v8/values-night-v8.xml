@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.SubmisiAwal2" parent="Theme.Material3.DayNight.NoActionBar">
+        
+         <item name="colorPrimary">@color/my_dark_primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+</resources>

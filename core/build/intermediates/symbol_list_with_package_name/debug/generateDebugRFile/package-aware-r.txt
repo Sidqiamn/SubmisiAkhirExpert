@@ -1,0 +1,15 @@
+com.example.core
+drawable baseline_favorite_24
+drawable baseline_favorite_border_24
+drawable baseline_keyboard_backspace_24
+drawable baseline_keyboard_backspace_24_white
+drawable ic_bookmark_white
+drawable ic_bookmarked_white
+drawable ic_error
+drawable ic_loading
+string back_button
+string gambar_acara
+string published_date
+string register
+string save_bookmark
+string title

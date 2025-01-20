@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="NotificationPermission">
+        <location id="class"
+            file="$GRADLE_USER_HOME/caches/8.9/transforms/bde283891393b385afff4eaf28c432f8/transformed/leakcanary-android-core-2.10/jars/classes.jar"/>
+        <entry
+            name="className"
+            string="leakcanary/NotificationEventListener"/>
+    </map>
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.intent.action.VIEW (used to start an activity)">
+                        <location id="0"
+                            file="${:shared*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shared/presentation/DetailEventActivity.kt"
+                            line="57"
+                            column="30"
+                            startOffset="2107"
+                            endLine="57"
+                            endColumn="56"
+                            endOffset="2133"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="attr[colorPrimary(R)],color[cardview_light_background(R)],drawable[baseline_favorite_24(U),baseline_favorite_border_24(U),baseline_keyboard_backspace_24(R),ic_bookmark_white(R),ic_bookmarked_white(R),ic_loading(R),ic_error(R)],id[main(D),backIcon(U),imgItemPhoto(U),iv_favorite(D),tvItemName(U),tvItemDescription(U),tvPenyelenggara(U),tvWaktu(U),tvQuota(U),tvLink(U),tvDeskripsi(U),btnRegister(U),img_poster(U),tv_item_title(U),tv_summary(D),iv_bookmark(D)],layout[activity_detail_event(U),item_news(U)],string[back_button(R),gambar_acara(R),register(R),title(R),published_date(R),save_bookmark(R),organizer_label(U),time_label(U),quota_label(U),link_label(U)];19^0^1b^4^1c^a^3^b^d^e^f^10^11^12^1d^1^13,1a^15^1e^16^1f^20^5;;;"/>
+    </map>
+
+</incidents>

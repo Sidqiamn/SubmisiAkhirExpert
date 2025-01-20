@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.shared.presentation.NewsViewModelTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-01-20T07:03:51" hostname="LAPTOP-54A6RDQC" time="6.318">
+  <properties/>
+  <testcase name="saveNews should call useCase to save bookmarked news" classname="com.example.shared.presentation.NewsViewModelTest" time="5.837"/>
+  <testcase name="deleteNews should call useCase to delete bookmarked news" classname="com.example.shared.presentation.NewsViewModelTest" time="0.133"/>
+  <testcase name="fetchHeadlineNews should update headlineNews with success data" classname="com.example.shared.presentation.NewsViewModelTest" time="0.319"/>
+  <testcase name="fetchBookmarkedNews should update bookmarkedNews with success data" classname="com.example.shared.presentation.NewsViewModelTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

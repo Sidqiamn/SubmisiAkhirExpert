@@ -1,0 +1,132 @@
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\build.gradle.kts:17: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 34
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.7.3 is available: 8.8.0 [AndroidGradlePluginVersion]
+agp = "8.7.3"
+      ~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.7.3 is available: 8.8.0 [AndroidGradlePluginVersion]
+agp = "8.7.3"
+      ~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.7.3 is available: 8.8.0 [AndroidGradlePluginVersion]
+agp = "8.7.3"
+      ~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:2: Warning: A newer version of com.android.dynamic-feature than 8.7.3 is available: 8.8.0 [AndroidGradlePluginVersion]
+agp = "8.7.3"
+      ~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:2: Warning: A newer version of com.android.dynamic-feature than 8.7.3 is available: 8.8.0 [AndroidGradlePluginVersion]
+agp = "8.7.3"
+      ~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:2: Warning: A newer version of com.android.dynamic-feature than 8.7.3 is available: 8.8.0 [AndroidGradlePluginVersion]
+agp = "8.7.3"
+      ~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:2: Warning: A newer version of com.android.library than 8.7.3 is available: 8.8.0 [AndroidGradlePluginVersion]
+agp = "8.7.3"
+      ~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:2: Warning: A newer version of com.android.library than 8.7.3 is available: 8.8.0 [AndroidGradlePluginVersion]
+agp = "8.7.3"
+      ~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:2: Warning: A newer version of com.android.library than 8.7.3 is available: 8.8.0 [AndroidGradlePluginVersion]
+agp = "8.7.3"
+      ~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:7: Warning: A newer version of org.jetbrains.kotlin.android than 2.0.10 is available: 2.0.20 [GradleDependency]
+kotlin = "2.0.10"
+         ~~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:7: Warning: A newer version of org.jetbrains.kotlin.android than 2.0.10 is available: 2.0.20 [GradleDependency]
+kotlin = "2.0.10"
+         ~~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\gradle\libs.versions.toml:7: Warning: A newer version of org.jetbrains.kotlin.android than 2.0.10 is available: 2.0.20 [GradleDependency]
+kotlin = "2.0.10"
+         ~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\drawable\baseline_favorite_24.xml:1: Warning: The resource R.drawable.baseline_favorite_24 appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:tint="#bc1e1b" android:viewportHeight="24" android:viewportWidth="24" android:width="24dp">
+^
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\drawable\baseline_favorite_border_24.xml:1: Warning: The resource R.drawable.baseline_favorite_border_24 appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:tint="#bc1e1b" android:viewportHeight="24" android:viewportWidth="24" android:width="24dp">
+^
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\values\colors.xml:10: Warning: The resource R.color.placeholder appears to be unused [UnusedResources]
+    <color name="placeholder">#6FB6B6B6</color>
+           ~~~~~~~~~~~~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\drawable\ic_bookmark_white.xml:1: Warning: The resource R.drawable.ic_bookmark_white appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\drawable\ic_bookmarked_white.xml:1: Warning: The resource R.drawable.ic_bookmarked_white appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\drawable\ic_broken_image_black.xml:1: Warning: The resource R.drawable.ic_broken_image_black appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\drawable\ic_error.xml:2: Warning: The resource R.drawable.ic_error appears to be unused [UnusedResources]
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\drawable\ic_loading.xml:2: Warning: The resource R.drawable.ic_loading appears to be unused [UnusedResources]
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\drawable\ic_refresh_black.xml:1: Warning: The resource R.drawable.ic_refresh_black appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\values\strings.xml:3: Warning: The resource R.string.title appears to be unused [UnusedResources]
+    <string name="title">Title</string>
+            ~~~~~~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\values\strings.xml:4: Warning: The resource R.string.published_date appears to be unused [UnusedResources]
+    <string name="published_date">Published Date</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.save_bookmark appears to be unused [UnusedResources]
+    <string name="save_bookmark">Save Bookmark?</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\values\strings.xml:6: Warning: The resource R.string.gambar_acara appears to be unused [UnusedResources]
+    <string name="gambar_acara">gambar acara</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\app\src\main\res\values\strings.xml:7: Warning: The resource R.string.register appears to be unused [UnusedResources]
+    <string name="register">Register</string>
+            ~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+0 errors, 27 warnings

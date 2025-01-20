@@ -1,0 +1,6 @@
+com.example.submisiawal2:layout/activity_favorite_dynamic = 0x7e020000
+com.example.submisiawal2:id/progressBar = 0x7e010001
+com.example.submisiawal2:id/tvNoFavorites = 0x7e010003
+com.example.submisiawal2:string/data_favorite_tidak_ada = 0x7e030000
+com.example.submisiawal2:id/rv_favorite_vertcal = 0x7e010002
+com.example.submisiawal2:id/main = 0x7e010000

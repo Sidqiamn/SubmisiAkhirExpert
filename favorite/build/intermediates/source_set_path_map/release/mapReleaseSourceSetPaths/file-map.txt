@@ -1,0 +1,7 @@
+com.example.favorite-pngs-0 C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\favorite\build\generated\res\pngs\release
+com.example.favorite-resValues-1 C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\favorite\build\generated\res\resValues\release
+com.example.favorite-packageReleaseResources-2 C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\favorite\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.example.favorite-packageReleaseResources-3 C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\favorite\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.example.favorite-release-4 C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\favorite\build\intermediates\merged_res\release\mergeReleaseResources
+com.example.favorite-main-5 C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\favorite\src\main\res
+com.example.favorite-release-6 C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\favorite\src\release\res

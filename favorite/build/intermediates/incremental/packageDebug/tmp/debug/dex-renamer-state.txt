@@ -1,0 +1,4 @@
+#Mon Jan 20 14:05:30 WIB 2025
+base.0=C\:\\Users\\ASUS\\Downloads\\submisiAwalExpert-master2\\submisiAwalExpert-master\\app\\build\\intermediates\\feature_dex\\debug\\minifyDebugWithR8\\feature-favorite\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

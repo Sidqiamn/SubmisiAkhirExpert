@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="incidents">
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.7.3 is available: 8.8.0">
+        <fix-replace
+            description="Change to 8.8.0"
+            family="Update versions"
+            oldString="8.7.3"
+            replacement="8.8.0"
+            priority="0"/>
+        <location
+            file="$HOME/Downloads/submisiAwalExpert-master2/submisiAwalExpert-master/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.dynamic-feature than 8.7.3 is available: 8.8.0">
+        <fix-replace
+            description="Change to 8.8.0"
+            family="Update versions"
+            oldString="8.7.3"
+            replacement="8.8.0"
+            priority="0"/>
+        <location
+            file="$HOME/Downloads/submisiAwalExpert-master2/submisiAwalExpert-master/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.library than 8.7.3 is available: 8.8.0">
+        <fix-replace
+            description="Change to 8.8.0"
+            family="Update versions"
+            oldString="8.7.3"
+            replacement="8.8.0"
+            priority="0"/>
+        <location
+            file="$HOME/Downloads/submisiAwalExpert-master2/submisiAwalExpert-master/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.android than 2.0.10 is available: 2.0.20">
+        <fix-replace
+            description="Change to 2.0.20"
+            family="Update versions"
+            oldString="2.0.10"
+            replacement="2.0.20"
+            priority="0"/>
+        <location
+            file="$HOME/Downloads/submisiAwalExpert-master2/submisiAwalExpert-master/gradle/libs.versions.toml"
+            line="7"
+            column="10"
+            startOffset="135"
+            endLine="7"
+            endColumn="18"
+            endOffset="143"/>
+    </incident>
+
+</incidents>

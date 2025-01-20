@@ -1,0 +1,649 @@
+# compiler: R8
+# compiler_version: 8.7.18
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: fe4b228
+# pg_map_hash: SHA-256 fe4b228655a01e648614be15156d8646f786479b12bd55af2a93ecd14445e315
+com.example.core.BuildConfig -> com.example.core.BuildConfig:
+# {"id":"sourceFile","fileName":"BuildConfig.java"}
+    7:7:void <clinit>() -> <clinit>
+com.example.core.data.EventResponse -> com.example.core.data.EventResponse:
+# {"id":"sourceFile","fileName":"EventResponse.kt"}
+    5:5:void <init>(java.util.List,boolean,java.lang.String) -> <init>
+    7:7:void <init>(java.util.List,boolean,java.lang.String) -> <init>
+    10:10:void <init>(java.util.List,boolean,java.lang.String) -> <init>
+    13:13:void <init>(java.util.List,boolean,java.lang.String) -> <init>
+    10:10:boolean getError() -> getError
+    7:7:java.util.List getListEvents() -> getListEvents
+    13:13:java.lang.String getMessage() -> getMessage
+com.example.core.data.ListEventsItem -> com.example.core.data.ListEventsItem:
+# {"id":"sourceFile","fileName":"DoneEventResponse.kt"}
+    5:5:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    7:7:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    10:10:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    13:13:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    16:16:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    19:19:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    22:22:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    25:25:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    28:28:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    31:31:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    34:34:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    37:37:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    40:40:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    43:43:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    46:46:void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    40:40:java.lang.String getBeginTime() -> getBeginTime
+    46:46:java.lang.String getCategory() -> getCategory
+    28:28:java.lang.String getCityName() -> getCityName
+    22:22:java.lang.String getDescription() -> getDescription
+    43:43:java.lang.String getEndTime() -> getEndTime
+    37:37:int getId() -> getId
+    16:16:java.lang.String getImageLogo() -> getImageLogo
+    19:19:java.lang.String getLink() -> getLink
+    10:10:java.lang.String getMediaCover() -> getMediaCover
+    34:34:java.lang.String getName() -> getName
+    25:25:java.lang.String getOwnerName() -> getOwnerName
+    31:31:int getQuota() -> getQuota
+    13:13:int getRegistrants() -> getRegistrants
+    7:7:java.lang.String getSummary() -> getSummary
+com.example.core.data.NewsDao -> com.example.core.data.NewsDao:
+# {"id":"sourceFile","fileName":"NewsDao.kt"}
+com.example.core.data.NewsDao_Impl -> com.example.core.data.NewsDao_Impl:
+# {"id":"sourceFile","fileName":"NewsDao_Impl.java"}
+    40:40:void <init>(androidx.room.RoomDatabase) -> <init>
+    41:41:void <init>(androidx.room.RoomDatabase) -> <init>
+    42:42:void <init>(androidx.room.RoomDatabase) -> <init>
+    74:74:void <init>(androidx.room.RoomDatabase) -> <init>
+    107:107:void <init>(androidx.room.RoomDatabase) -> <init>
+    115:115:void <init>(androidx.room.RoomDatabase) -> <init>
+    156:156:java.lang.Object deleteAll(kotlin.coroutines.Continuation) -> deleteAll
+    251:251:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    252:252:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    253:253:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    179:179:kotlinx.coroutines.flow.Flow getNews() -> getNews
+    180:180:kotlinx.coroutines.flow.Flow getNews() -> getNews
+    181:181:kotlinx.coroutines.flow.Flow getNews() -> getNews
+    323:323:java.util.List getRequiredConverters() -> getRequiredConverters
+    120:120:java.lang.Object insertNews(java.util.List,kotlin.coroutines.Continuation) -> insertNews
+    138:138:java.lang.Object updateNews(com.example.core.data.NewsEntity,kotlin.coroutines.Continuation) -> updateNews
+com.example.core.data.NewsDao_Impl$1 -> com.example.core.data.NewsDao_Impl$1:
+# {"id":"sourceFile","fileName":"NewsDao_Impl.java"}
+    42:42:void <init>(com.example.core.data.NewsDao_Impl,androidx.room.RoomDatabase) -> <init>
+    42:42:void bind(androidx.sqlite.db.SupportSQLiteStatement,java.lang.Object) -> bind
+    52:52:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    53:53:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    54:54:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    55:55:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    56:56:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    57:57:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    58:58:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    59:59:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    60:60:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    61:61:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    63:63:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    65:65:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    66:66:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    68:68:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    70:70:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    71:71:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    72:72:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    46:46:java.lang.String createQuery() -> createQuery
+com.example.core.data.NewsDao_Impl$2 -> com.example.core.data.NewsDao_Impl$2:
+# {"id":"sourceFile","fileName":"NewsDao_Impl.java"}
+    74:74:void <init>(com.example.core.data.NewsDao_Impl,androidx.room.RoomDatabase) -> <init>
+    74:74:void bind(androidx.sqlite.db.SupportSQLiteStatement,java.lang.Object) -> bind
+    84:84:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    85:85:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    86:86:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    87:87:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    88:88:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    89:89:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    90:90:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    91:91:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    92:92:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    93:93:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    95:95:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    97:97:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    98:98:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    100:100:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    102:102:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    103:103:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    104:104:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    105:105:void bind(androidx.sqlite.db.SupportSQLiteStatement,com.example.core.data.NewsEntity) -> bind
+    78:78:java.lang.String createQuery() -> createQuery
+com.example.core.data.NewsDao_Impl$3 -> com.example.core.data.NewsDao_Impl$3:
+# {"id":"sourceFile","fileName":"NewsDao_Impl.java"}
+    107:107:void <init>(com.example.core.data.NewsDao_Impl,androidx.room.RoomDatabase) -> <init>
+    111:111:java.lang.String createQuery() -> createQuery
+    112:112:java.lang.String createQuery() -> createQuery
+com.example.core.data.NewsDao_Impl$4 -> com.example.core.data.NewsDao_Impl$4:
+# {"id":"sourceFile","fileName":"NewsDao_Impl.java"}
+    120:120:void <init>(com.example.core.data.NewsDao_Impl,java.util.List) -> <init>
+    120:120:java.lang.Object call() -> call
+    124:124:kotlin.Unit call() -> call
+    126:126:kotlin.Unit call() -> call
+    127:127:kotlin.Unit call() -> call
+    128:128:kotlin.Unit call() -> call
+    130:130:kotlin.Unit call() -> call
+    131:131:kotlin.Unit call() -> call
+com.example.core.data.NewsDao_Impl$5 -> com.example.core.data.NewsDao_Impl$5:
+# {"id":"sourceFile","fileName":"NewsDao_Impl.java"}
+    138:138:void <init>(com.example.core.data.NewsDao_Impl,com.example.core.data.NewsEntity) -> <init>
+    138:138:java.lang.Object call() -> call
+    142:142:kotlin.Unit call() -> call
+    144:144:kotlin.Unit call() -> call
+    145:145:kotlin.Unit call() -> call
+    146:146:kotlin.Unit call() -> call
+    148:148:kotlin.Unit call() -> call
+    149:149:kotlin.Unit call() -> call
+com.example.core.data.NewsDao_Impl$6 -> com.example.core.data.NewsDao_Impl$6:
+# {"id":"sourceFile","fileName":"NewsDao_Impl.java"}
+    156:156:void <init>(com.example.core.data.NewsDao_Impl) -> <init>
+    156:156:java.lang.Object call() -> call
+    160:160:kotlin.Unit call() -> call
+    162:162:kotlin.Unit call() -> call
+    164:164:kotlin.Unit call() -> call
+    165:165:kotlin.Unit call() -> call
+    166:166:kotlin.Unit call() -> call
+    168:168:kotlin.Unit call() -> call
+    169:169:kotlin.Unit call() -> call
+    171:171:kotlin.Unit call() -> call
+    172:172:kotlin.Unit call() -> call
+com.example.core.data.NewsDao_Impl$7 -> com.example.core.data.NewsDao_Impl$7:
+# {"id":"sourceFile","fileName":"NewsDao_Impl.java"}
+    181:181:void <init>(com.example.core.data.NewsDao_Impl,androidx.room.RoomSQLiteQuery) -> <init>
+    181:181:java.lang.Object call() -> call
+    185:185:java.util.List call() -> call
+    187:187:java.util.List call() -> call
+    188:188:java.util.List call() -> call
+    189:189:java.util.List call() -> call
+    190:190:java.util.List call() -> call
+    191:191:java.util.List call() -> call
+    192:192:java.util.List call() -> call
+    193:193:java.util.List call() -> call
+    194:194:java.util.List call() -> call
+    195:195:java.util.List call() -> call
+    196:196:java.util.List call() -> call
+    197:197:java.util.List call() -> call
+    198:198:java.util.List call() -> call
+    199:199:java.util.List call() -> call
+    202:202:java.util.List call() -> call
+    204:204:java.util.List call() -> call
+    206:206:java.util.List call() -> call
+    208:208:java.util.List call() -> call
+    210:210:java.util.List call() -> call
+    212:212:java.util.List call() -> call
+    214:214:java.util.List call() -> call
+    216:216:java.util.List call() -> call
+    218:218:java.util.List call() -> call
+    219:219:java.util.List call() -> call
+    221:221:java.util.List call() -> call
+    224:224:java.util.List call() -> call
+    225:225:java.util.List call() -> call
+    227:227:java.util.List call() -> call
+    231:231:java.util.List call() -> call
+    232:232:java.util.List call() -> call
+    233:233:java.util.List call() -> call
+    234:234:java.util.List call() -> call
+    235:235:java.util.List call() -> call
+    236:236:java.util.List call() -> call
+    238:238:java.util.List call() -> call
+    239:239:java.util.List call() -> call
+    244:244:void finalize() -> finalize
+    245:245:void finalize() -> finalize
+com.example.core.data.NewsDao_Impl$8 -> com.example.core.data.NewsDao_Impl$8:
+# {"id":"sourceFile","fileName":"NewsDao_Impl.java"}
+    253:253:void <init>(com.example.core.data.NewsDao_Impl,androidx.room.RoomSQLiteQuery) -> <init>
+    253:253:java.lang.Object call() -> call
+    257:257:java.util.List call() -> call
+    259:259:java.util.List call() -> call
+    260:260:java.util.List call() -> call
+    261:261:java.util.List call() -> call
+    262:262:java.util.List call() -> call
+    263:263:java.util.List call() -> call
+    264:264:java.util.List call() -> call
+    265:265:java.util.List call() -> call
+    266:266:java.util.List call() -> call
+    267:267:java.util.List call() -> call
+    268:268:java.util.List call() -> call
+    269:269:java.util.List call() -> call
+    270:270:java.util.List call() -> call
+    271:271:java.util.List call() -> call
+    274:274:java.util.List call() -> call
+    276:276:java.util.List call() -> call
+    278:278:java.util.List call() -> call
+    280:280:java.util.List call() -> call
+    282:282:java.util.List call() -> call
+    284:284:java.util.List call() -> call
+    286:286:java.util.List call() -> call
+    288:288:java.util.List call() -> call
+    290:290:java.util.List call() -> call
+    291:291:java.util.List call() -> call
+    293:293:java.util.List call() -> call
+    296:296:java.util.List call() -> call
+    297:297:java.util.List call() -> call
+    299:299:java.util.List call() -> call
+    303:303:java.util.List call() -> call
+    304:304:java.util.List call() -> call
+    305:305:java.util.List call() -> call
+    306:306:java.util.List call() -> call
+    307:307:java.util.List call() -> call
+    308:308:java.util.List call() -> call
+    310:310:java.util.List call() -> call
+    311:311:java.util.List call() -> call
+    316:316:void finalize() -> finalize
+    317:317:void finalize() -> finalize
+com.example.core.data.NewsDatabase -> com.example.core.data.NewsDatabase:
+# {"id":"sourceFile","fileName":"NewsDatabase.kt"}
+    16:16:void <clinit>() -> <clinit>
+    17:17:void <clinit>() -> <clinit>
+    11:11:void <init>() -> <init>
+    12:12:void <init>() -> <init>
+    11:11:net.sqlcipher.database.SupportFactory access$getFactory$cp() -> access$getFactory$cp
+    11:11:com.example.core.data.NewsDatabase access$getInstance$cp() -> access$getInstance$cp
+    11:11:void access$setInstance$cp(com.example.core.data.NewsDatabase) -> access$setInstance$cp
+com.example.core.data.NewsDatabase$Companion -> com.example.core.data.NewsDatabase$Companion:
+# {"id":"sourceFile","fileName":"NewsDatabase.kt"}
+    0:0:void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    15:15:void <init>() -> <init>
+    23:23:com.example.core.data.NewsDatabase getInstance(android.content.Context) -> getInstance
+    24:24:com.example.core.data.NewsDatabase getInstance(android.content.Context) -> getInstance
+    25:25:com.example.core.data.NewsDatabase getInstance(android.content.Context) -> getInstance
+    26:26:com.example.core.data.NewsDatabase getInstance(android.content.Context) -> getInstance
+    28:28:com.example.core.data.NewsDatabase getInstance(android.content.Context) -> getInstance
+    29:29:com.example.core.data.NewsDatabase getInstance(android.content.Context) -> getInstance
+    30:30:com.example.core.data.NewsDatabase getInstance(android.content.Context) -> getInstance
+    34:34:com.example.core.data.NewsDatabase getInstance(android.content.Context) -> getInstance
+com.example.core.data.NewsDatabase_Impl -> com.example.core.data.NewsDatabase_Impl:
+# {"id":"sourceFile","fileName":"NewsDatabase_Impl.java"}
+    28:28:void <init>() -> <init>
+    28:28:java.util.List access$000(com.example.core.data.NewsDatabase_Impl) -> access$000
+    28:28:java.util.List access$100(com.example.core.data.NewsDatabase_Impl) -> access$100
+    28:28:androidx.sqlite.db.SupportSQLiteDatabase access$202(com.example.core.data.NewsDatabase_Impl,androidx.sqlite.db.SupportSQLiteDatabase) -> access$202
+    28:28:void access$300(com.example.core.data.NewsDatabase_Impl,androidx.sqlite.db.SupportSQLiteDatabase) -> access$300
+    28:28:java.util.List access$400(com.example.core.data.NewsDatabase_Impl) -> access$400
+    127:127:void clearAllTables() -> clearAllTables
+    128:128:void clearAllTables() -> clearAllTables
+    130:130:void clearAllTables() -> clearAllTables
+    131:131:void clearAllTables() -> clearAllTables
+    132:132:void clearAllTables() -> clearAllTables
+    134:134:void clearAllTables() -> clearAllTables
+    135:135:void clearAllTables() -> clearAllTables
+    136:136:void clearAllTables() -> clearAllTables
+    137:137:void clearAllTables() -> clearAllTables
+    139:139:void clearAllTables() -> clearAllTables
+    140:140:void clearAllTables() -> clearAllTables
+    120:120:androidx.room.InvalidationTracker createInvalidationTracker() -> createInvalidationTracker
+    121:121:androidx.room.InvalidationTracker createInvalidationTracker() -> createInvalidationTracker
+    122:122:androidx.room.InvalidationTracker createInvalidationTracker() -> createInvalidationTracker
+    34:34:androidx.sqlite.db.SupportSQLiteOpenHelper createOpenHelper(androidx.room.DatabaseConfiguration) -> createOpenHelper
+    112:112:androidx.sqlite.db.SupportSQLiteOpenHelper createOpenHelper(androidx.room.DatabaseConfiguration) -> createOpenHelper
+    113:113:androidx.sqlite.db.SupportSQLiteOpenHelper createOpenHelper(androidx.room.DatabaseConfiguration) -> createOpenHelper
+    114:114:androidx.sqlite.db.SupportSQLiteOpenHelper createOpenHelper(androidx.room.DatabaseConfiguration) -> createOpenHelper
+    161:161:java.util.List getAutoMigrations(java.util.Map) -> getAutoMigrations
+    162:162:java.util.List getAutoMigrations(java.util.Map) -> getAutoMigrations
+    153:153:java.util.Set getRequiredAutoMigrationSpecs() -> getRequiredAutoMigrationSpecs
+    154:154:java.util.Set getRequiredAutoMigrationSpecs() -> getRequiredAutoMigrationSpecs
+    145:145:java.util.Map getRequiredTypeConverters() -> getRequiredTypeConverters
+    146:146:java.util.Map getRequiredTypeConverters() -> getRequiredTypeConverters
+    147:147:java.util.Map getRequiredTypeConverters() -> getRequiredTypeConverters
+    167:167:com.example.core.data.NewsDao newsDao() -> newsDao
+    168:168:com.example.core.data.NewsDao newsDao() -> newsDao
+    170:170:com.example.core.data.NewsDao newsDao() -> newsDao
+    171:171:com.example.core.data.NewsDao newsDao() -> newsDao
+    172:172:com.example.core.data.NewsDao newsDao() -> newsDao
+    174:174:com.example.core.data.NewsDao newsDao() -> newsDao
+    175:175:com.example.core.data.NewsDao newsDao() -> newsDao
+com.example.core.data.NewsDatabase_Impl$1 -> com.example.core.data.NewsDatabase_Impl$1:
+# {"id":"sourceFile","fileName":"NewsDatabase_Impl.java"}
+    34:34:void <init>(com.example.core.data.NewsDatabase_Impl,int) -> <init>
+    37:37:void createAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> createAllTables
+    38:38:void createAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> createAllTables
+    39:39:void createAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> createAllTables
+    40:40:void createAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> createAllTables
+    44:44:void dropAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> dropAllTables
+    45:45:void dropAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> dropAllTables
+    46:46:void dropAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> dropAllTables
+    47:47:void dropAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> dropAllTables
+    48:48:void dropAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> dropAllTables
+    49:49:void dropAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> dropAllTables
+    51:51:void dropAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> dropAllTables
+    55:55:void onCreate(androidx.sqlite.db.SupportSQLiteDatabase) -> onCreate
+    56:56:void onCreate(androidx.sqlite.db.SupportSQLiteDatabase) -> onCreate
+    57:57:void onCreate(androidx.sqlite.db.SupportSQLiteDatabase) -> onCreate
+    58:58:void onCreate(androidx.sqlite.db.SupportSQLiteDatabase) -> onCreate
+    59:59:void onCreate(androidx.sqlite.db.SupportSQLiteDatabase) -> onCreate
+    61:61:void onCreate(androidx.sqlite.db.SupportSQLiteDatabase) -> onCreate
+    65:65:void onOpen(androidx.sqlite.db.SupportSQLiteDatabase) -> onOpen
+    66:66:void onOpen(androidx.sqlite.db.SupportSQLiteDatabase) -> onOpen
+    67:67:void onOpen(androidx.sqlite.db.SupportSQLiteDatabase) -> onOpen
+    68:68:void onOpen(androidx.sqlite.db.SupportSQLiteDatabase) -> onOpen
+    69:69:void onOpen(androidx.sqlite.db.SupportSQLiteDatabase) -> onOpen
+    70:70:void onOpen(androidx.sqlite.db.SupportSQLiteDatabase) -> onOpen
+    71:71:void onOpen(androidx.sqlite.db.SupportSQLiteDatabase) -> onOpen
+    73:73:void onOpen(androidx.sqlite.db.SupportSQLiteDatabase) -> onOpen
+    82:82:void onPostMigrate(androidx.sqlite.db.SupportSQLiteDatabase) -> onPostMigrate
+    77:77:void onPreMigrate(androidx.sqlite.db.SupportSQLiteDatabase) -> onPreMigrate
+    78:78:void onPreMigrate(androidx.sqlite.db.SupportSQLiteDatabase) -> onPreMigrate
+    88:88:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    89:89:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    90:90:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    91:91:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    92:92:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    93:93:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    94:94:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    95:95:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    96:96:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    97:97:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    98:98:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    99:99:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    100:100:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    101:101:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    102:102:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    103:103:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    104:104:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    105:105:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+    109:109:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+com.example.core.data.NewsEntity -> com.example.core.data.NewsEntity:
+# {"id":"sourceFile","fileName":"NewsEntity.kt"}
+    12:12:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    13:13:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    17:17:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    20:20:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    23:23:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    26:26:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    29:29:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    32:32:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    35:35:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    38:38:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    41:41:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    44:44:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    12:12:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    39:39:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    42:42:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    46:46:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    10:10:int describeContents() -> describeContents
+    50:50:int describeContents() -> describeContents
+    32:32:java.lang.String getDesckripsi() -> getDesckripsi
+    29:29:java.lang.String getLink() -> getLink
+    20:20:java.lang.String getPenyelenggaraAcara() -> getPenyelenggaraAcara
+    35:35:java.lang.String getPublishedAt() -> getPublishedAt
+    26:26:int getQuota() -> getQuota
+    17:17:java.lang.String getSummary() -> getSummary
+    13:13:java.lang.String getTitle() -> getTitle
+    41:41:java.lang.String getUrl() -> getUrl
+    38:38:java.lang.String getUrlToImage() -> getUrlToImage
+    23:23:java.lang.String getWaktu() -> getWaktu
+    44:44:boolean isBookmarked() -> isBookmarked
+    44:44:void setBookmarked(boolean) -> setBookmarked
+    45:45:void setBookmarked(boolean) -> setBookmarked
+    48:48:java.lang.String toString() -> toString
+    50:50:void writeToParcel(android.os.Parcel,int) -> writeToParcel
+com.example.core.data.NewsEntity$Creator -> com.example.core.data.NewsEntity$Creator:
+# {"id":"sourceFile","fileName":"NewsEntity.kt"}
+    0:0:com.example.core.data.NewsEntity createFromParcel(android.os.Parcel) -> createFromParcel
+    0:0:java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    0:0:com.example.core.data.NewsEntity[] newArray(int) -> newArray
+    0:0:java.lang.Object[] newArray(int) -> newArray
+com.example.core.data.NewsRepository -> com.example.core.data.NewsRepository:
+# {"id":"sourceFile","fileName":"NewsRepository.kt"}
+    0:0:void <init>(com.example.core.data.service.ApiService,com.example.core.data.NewsDao,kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    12:12:void access$setInstance$cp(com.example.core.data.NewsRepository) -> <init>
+    12:12:void <init>(com.example.core.data.service.ApiService,com.example.core.data.NewsDao):12 -> <init>
+    13:13:void <init>(com.example.core.data.service.ApiService,com.example.core.data.NewsDao) -> <init>
+    14:14:void <init>(com.example.core.data.service.ApiService,com.example.core.data.NewsDao) -> <init>
+    12:12:void access$setInstance$cp(com.example.core.data.NewsRepository) -> access$getApiService$p
+    12:12:com.example.core.data.service.ApiService access$getApiService$p(com.example.core.data.NewsRepository):12 -> access$getApiService$p
+    12:12:void access$setInstance$cp(com.example.core.data.NewsRepository) -> access$getInstance$cp
+    12:12:com.example.core.data.NewsRepository access$getInstance$cp():12 -> access$getInstance$cp
+    12:12:void access$setInstance$cp(com.example.core.data.NewsRepository) -> access$getNewsDao$p
+    12:12:com.example.core.data.NewsDao access$getNewsDao$p(com.example.core.data.NewsRepository):12 -> access$getNewsDao$p
+    12:12:void access$setInstance$cp(com.example.core.data.NewsRepository) -> access$setInstance$cp
+    50:50:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    51:51:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    54:54:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    57:57:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    81:81:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    82:82:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    83:83:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    84:84:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    85:85:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    18:18:kotlinx.coroutines.flow.Flow getHeadlineNews() -> getHeadlineNews
+    44:44:kotlinx.coroutines.flow.Flow getHeadlineNews() -> getHeadlineNews
+    47:47:kotlinx.coroutines.flow.Flow getHeadlineNews() -> getHeadlineNews
+    60:60:java.lang.Object setBookmarkedNews(com.example.core.domain.model.News,boolean,kotlin.coroutines.Continuation) -> setBookmarkedNews
+    61:61:java.lang.Object setBookmarkedNews(com.example.core.domain.model.News,boolean,kotlin.coroutines.Continuation) -> setBookmarkedNews
+    62:62:java.lang.Object setBookmarkedNews(com.example.core.domain.model.News,boolean,kotlin.coroutines.Continuation) -> setBookmarkedNews
+    63:63:java.lang.Object setBookmarkedNews(com.example.core.domain.model.News,boolean,kotlin.coroutines.Continuation) -> setBookmarkedNews
+    64:64:java.lang.Object setBookmarkedNews(com.example.core.domain.model.News,boolean,kotlin.coroutines.Continuation) -> setBookmarkedNews
+com.example.core.data.NewsRepository$Companion -> com.example.core.data.NewsRepository$Companion:
+# {"id":"sourceFile","fileName":"NewsRepository.kt"}
+    0:0:void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    66:66:void <init>() -> <init>
+    75:75:com.example.core.data.NewsRepository getInstance(com.example.core.data.service.ApiService,com.example.core.data.NewsDao) -> getInstance
+    76:76:com.example.core.data.NewsRepository getInstance(com.example.core.data.service.ApiService,com.example.core.data.NewsDao) -> getInstance
+    77:77:com.example.core.data.NewsRepository getInstance(com.example.core.data.service.ApiService,com.example.core.data.NewsDao) -> getInstance
+    81:81:com.example.core.data.NewsRepository getInstance(com.example.core.data.service.ApiService,com.example.core.data.NewsDao) -> getInstance
+com.example.core.data.NewsRepository$getBookmarkedNews$$inlined$map$1 -> com.example.core.data.NewsRepository$getBookmarkedNews$$inlined$map$1:
+# {"id":"sourceFile","fileName":"SafeCollector.common.kt"}
+    105:105:void <init>(kotlinx.coroutines.flow.Flow) -> <init>
+    107:107:java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation) -> collect
+    108:108:java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation) -> collect
+    112:112:java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation) -> collect
+    116:116:java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation) -> collect
+com.example.core.data.NewsRepository$getBookmarkedNews$$inlined$map$1$2 -> com.example.core.data.NewsRepository$getBookmarkedNews$$inlined$map$1$2:
+# {"id":"sourceFile","fileName":"Emitters.kt"}
+    0:0:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation) -> emit
+    49:49:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation) -> emit
+    219:219:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation) -> emit
+    220:220:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation) -> emit
+com.example.core.data.NewsRepository$getBookmarkedNews$$inlined$map$1$2$1 -> com.example.core.data.NewsRepository$getBookmarkedNews$$inlined$map$1$2$1:
+# {"id":"sourceFile","fileName":"Emitters.kt"}
+com.example.core.data.NewsRepository$getBookmarkedNews$2 -> com.example.core.data.NewsRepository$getBookmarkedNews$2:
+# {"id":"sourceFile","fileName":"NewsRepository.kt"}
+    0:0:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object) -> invoke
+    0:0:java.lang.Object invoke(kotlinx.coroutines.flow.FlowCollector,java.lang.Throwable,kotlin.coroutines.Continuation) -> invoke
+    54:54:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    55:55:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    56:56:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+com.example.core.data.NewsRepository$getHeadlineNews$1 -> com.example.core.data.NewsRepository$getHeadlineNews$1:
+# {"id":"sourceFile","fileName":"NewsRepository.kt"}
+    0:0:java.lang.Object invoke(java.lang.Object,java.lang.Object) -> invoke
+    0:0:java.lang.Object invoke(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation) -> invoke
+    18:18:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    19:19:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    21:21:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    23:23:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    24:24:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    26:26:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    28:28:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    30:30:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    31:31:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    33:33:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    34:34:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    35:35:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    40:40:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    41:41:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    42:42:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    44:44:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    81:81:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    82:82:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    83:83:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    84:84:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    85:85:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+com.example.core.data.NewsRepository$getHeadlineNews$1$invokeSuspend$$inlined$map$1 -> com.example.core.data.NewsRepository$getHeadlineNews$1$invokeSuspend$$inlined$map$1:
+# {"id":"sourceFile","fileName":"SafeCollector.common.kt"}
+    105:105:void <init>(kotlinx.coroutines.flow.Flow) -> <init>
+    107:107:java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation) -> collect
+    108:108:java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation) -> collect
+    112:112:java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation) -> collect
+    116:116:java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation) -> collect
+com.example.core.data.NewsRepository$getHeadlineNews$1$invokeSuspend$$inlined$map$1$2 -> com.example.core.data.NewsRepository$getHeadlineNews$1$invokeSuspend$$inlined$map$1$2:
+# {"id":"sourceFile","fileName":"Emitters.kt"}
+    0:0:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation) -> emit
+    49:49:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation) -> emit
+    219:219:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation) -> emit
+    220:220:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation) -> emit
+    221:221:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation) -> emit
+com.example.core.data.NewsRepository$getHeadlineNews$1$invokeSuspend$$inlined$map$1$2$1 -> com.example.core.data.NewsRepository$getHeadlineNews$1$invokeSuspend$$inlined$map$1$2$1:
+# {"id":"sourceFile","fileName":"Emitters.kt"}
+com.example.core.data.NewsRepository$getHeadlineNews$2 -> com.example.core.data.NewsRepository$getHeadlineNews$2:
+# {"id":"sourceFile","fileName":"NewsRepository.kt"}
+    0:0:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object) -> invoke
+    0:0:java.lang.Object invoke(kotlinx.coroutines.flow.FlowCollector,java.lang.Throwable,kotlin.coroutines.Continuation) -> invoke
+    44:44:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    45:45:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    46:46:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+    47:47:java.lang.Object invokeSuspend(java.lang.Object) -> invokeSuspend
+com.example.core.data.service.ApiConfig -> com.example.core.data.service.ApiConfig:
+# {"id":"sourceFile","fileName":"ApiConfig.kt"}
+    11:11:void <init>() -> <init>
+com.example.core.data.service.ApiConfig$Companion -> com.example.core.data.service.ApiConfig$Companion:
+# {"id":"sourceFile","fileName":"ApiConfig.kt"}
+    0:0:void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    12:12:void <init>() -> <init>
+    15:15:com.example.core.data.service.ApiService getApiService() -> getApiService
+    16:16:com.example.core.data.service.ApiService getApiService() -> getApiService
+    17:17:com.example.core.data.service.ApiService getApiService() -> getApiService
+    19:19:com.example.core.data.service.ApiService getApiService() -> getApiService
+    22:22:com.example.core.data.service.ApiService getApiService() -> getApiService
+    25:25:com.example.core.data.service.ApiService getApiService() -> getApiService
+    26:26:com.example.core.data.service.ApiService getApiService() -> getApiService
+    27:27:com.example.core.data.service.ApiService getApiService() -> getApiService
+    28:28:com.example.core.data.service.ApiService getApiService() -> getApiService
+    31:31:com.example.core.data.service.ApiService getApiService() -> getApiService
+    32:32:com.example.core.data.service.ApiService getApiService() -> getApiService
+    33:33:com.example.core.data.service.ApiService getApiService() -> getApiService
+    34:34:com.example.core.data.service.ApiService getApiService() -> getApiService
+    36:36:com.example.core.data.service.ApiService getApiService() -> getApiService
+    37:37:com.example.core.data.service.ApiService getApiService() -> getApiService
+    38:38:com.example.core.data.service.ApiService getApiService() -> getApiService
+    39:39:com.example.core.data.service.ApiService getApiService() -> getApiService
+    40:40:com.example.core.data.service.ApiService getApiService() -> getApiService
+    42:42:com.example.core.data.service.ApiService getApiService() -> getApiService
+com.example.core.data.service.ApiService -> com.example.core.data.service.ApiService:
+# {"id":"sourceFile","fileName":"ApiService.kt"}
+com.example.core.domain.Result -> com.example.core.domain.Result:
+# {"id":"sourceFile","fileName":"Result.kt"}
+    0:0:void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    3:3:void <init>() -> <init>
+com.example.core.domain.Result$Error -> com.example.core.domain.Result$Error:
+# {"id":"sourceFile","fileName":"Result.kt"}
+    5:5:void <init>(java.lang.String) -> <init>
+    5:5:java.lang.String getError() -> getError
+com.example.core.domain.Result$Loading -> com.example.core.domain.Result$Loading:
+# {"id":"sourceFile","fileName":"Result.kt"}
+    6:6:void <init>() -> <init>
+com.example.core.domain.Result$Success -> com.example.core.domain.Result$Success:
+# {"id":"sourceFile","fileName":"Result.kt"}
+    4:4:void <init>(java.lang.Object) -> <init>
+    4:4:java.lang.Object getData() -> getData
+com.example.core.domain.model.News -> com.example.core.domain.model.News:
+# {"id":"sourceFile","fileName":"News.kt"}
+    7:7:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    8:8:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    9:9:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    10:10:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    11:11:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    12:12:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    13:13:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    14:14:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    15:15:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    16:16:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    17:17:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    18:18:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    19:19:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    20:20:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    21:21:void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> <init>
+    6:6:int describeContents() -> describeContents
+    22:22:int describeContents() -> describeContents
+    18:18:java.lang.String getBeginTime() -> getBeginTime
+    20:20:java.lang.String getCategory() -> getCategory
+    14:14:java.lang.String getCityName() -> getCityName
+    12:12:java.lang.String getDescription() -> getDescription
+    19:19:java.lang.String getEndTime() -> getEndTime
+    17:17:java.lang.String getId() -> getId
+    10:10:java.lang.String getImageLogo() -> getImageLogo
+    11:11:java.lang.String getLink() -> getLink
+    9:9:java.lang.String getMediaCover() -> getMediaCover
+    16:16:java.lang.String getName() -> getName
+    13:13:java.lang.String getOwnerName() -> getOwnerName
+    15:15:int getQuota() -> getQuota
+    8:8:java.lang.String getSummary() -> getSummary
+    21:21:boolean isBookmarked() -> isBookmarked
+    21:21:void setBookmarked(boolean) -> setBookmarked
+    22:22:void writeToParcel(android.os.Parcel,int) -> writeToParcel
+com.example.core.domain.model.News$Creator -> com.example.core.domain.model.News$Creator:
+# {"id":"sourceFile","fileName":"News.kt"}
+    0:0:com.example.core.domain.model.News createFromParcel(android.os.Parcel) -> createFromParcel
+    0:0:java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    0:0:com.example.core.domain.model.News[] newArray(int) -> newArray
+    0:0:java.lang.Object[] newArray(int) -> newArray
+com.example.core.domain.repository.INewsRepository -> com.example.core.domain.repository.INewsRepository:
+# {"id":"sourceFile","fileName":"INewsRepository.kt"}
+com.example.core.domain.usecase.NewsInteractor -> com.example.core.domain.usecase.NewsInteractor:
+# {"id":"sourceFile","fileName":"NewsInteractor.kt"}
+    7:7:void <init>(com.example.core.domain.repository.INewsRepository) -> <init>
+    11:11:kotlinx.coroutines.flow.Flow getBookmarkedNews() -> getBookmarkedNews
+    9:9:kotlinx.coroutines.flow.Flow getHeadlineNews() -> getHeadlineNews
+    13:13:java.lang.Object setBookmarkedNews(com.example.core.domain.model.News,boolean,kotlin.coroutines.Continuation) -> setBookmarkedNews
+com.example.core.domain.usecase.NewsUseCase -> com.example.core.domain.usecase.NewsUseCase:
+# {"id":"sourceFile","fileName":"NewsUseCase.kt"}
+com.example.core.utils.DataMapper -> com.example.core.utils.DataMapper:
+# {"id":"sourceFile","fileName":"DataMapper.kt"}
+    8:8:void <init>() -> <init>
+    48:48:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    49:49:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    50:50:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    51:51:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    52:52:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    53:53:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    54:54:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    55:55:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    56:56:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    57:57:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    58:58:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    59:59:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    60:60:com.example.core.data.NewsEntity mapDomainToEntity(com.example.core.domain.model.News) -> mapDomainToEntity
+    29:29:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    30:30:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    31:31:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    32:32:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    33:33:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    34:34:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    35:35:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    36:36:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    37:37:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    38:38:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    39:39:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    40:40:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    41:41:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    42:42:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    43:43:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    44:44:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    45:45:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    46:46:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    67:67:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    68:68:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    69:69:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    70:70:java.util.List mapEntitiesToDomain(java.util.List) -> mapEntitiesToDomain
+    10:10:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    11:11:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    12:12:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    13:13:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    14:14:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    15:15:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    16:16:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    17:17:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    18:18:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    19:19:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    20:20:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    21:21:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    22:22:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    24:24:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    26:26:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    63:63:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    64:64:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    65:65:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities
+    66:66:java.util.List mapResponsesToEntities(java.util.List) -> mapResponsesToEntities

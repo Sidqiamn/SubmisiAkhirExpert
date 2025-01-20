@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.shared-release-55:/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "com.example.shared-material-1.12.0-40:/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "com.example.shared-release-55:/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "com.example.shared-material-1.12.0-40:/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]

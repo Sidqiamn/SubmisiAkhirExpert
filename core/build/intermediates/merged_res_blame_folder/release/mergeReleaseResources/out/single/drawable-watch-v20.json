@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.example.core-release-54:/drawable-watch-v20/abc_dialog_material_background.xml",
+        "source": "com.example.core-appcompat-1.7.0-35:/drawable-watch-v20/abc_dialog_material_background.xml"
+    }
+]

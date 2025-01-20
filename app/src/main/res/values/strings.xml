@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">submisi awal</string>
+    <string name="title">Title</string>
+    <string name="published_date">Published Date</string>
+    <string name="save_bookmark">Save Bookmark?</string>
+    <string name="gambar_acara">gambar acara</string>
+    <string name="register">Register</string>
+    <string name="back_button">backbutton</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="submisi_awal">Submisi Awal</string>
+    <string name="settings_simbol">settings simbol</string>
+    <string name="favorite_symbol">favorite symbol</string>
+</resources>

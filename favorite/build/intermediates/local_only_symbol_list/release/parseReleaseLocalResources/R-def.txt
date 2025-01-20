@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+id main
+id progressBar
+id rv_favorite_vertcal
+id tvNoFavorites
+layout activity_favorite_dynamic
+string data_favorite_tidak_ada

@@ -1,0 +1,92 @@
+com.example.shared.R$layout
+com.example.shared.R$drawable
+com.example.shared.R$string
+com.example.shared.R
+com.example.shared.di.MyApplication
+com.example.shared.R$id
+com.example.shared.di.InjectionKt
+com.example.shared.presentation.NewsViewModel
+com.example.shared.presentation.DetailEventActivity
+com.example.shared.presentation.NewsAdapter
+com.example.shared.presentation.NewsViewModel: kotlinx.coroutines.flow.StateFlow bookmarkedNews
+com.example.shared.R$id: int backIcon
+com.example.shared.presentation.DetailEventActivity: com.example.shared.databinding.ActivityDetailEventBinding binding
+com.example.shared.presentation.NewsAdapter: com.example.shared.presentation.NewsAdapter$Companion Companion
+com.example.shared.presentation.NewsViewModel: kotlinx.coroutines.flow.MutableStateFlow _headlineNews
+com.example.shared.presentation.NewsViewModel: kotlinx.coroutines.flow.MutableStateFlow _bookmarkedNews
+com.example.shared.presentation.NewsAdapter: androidx.recyclerview.widget.DiffUtil$ItemCallback DIFF_CALLBACK
+com.example.shared.R$id: int tv_item_title
+com.example.shared.presentation.DetailEventActivity: com.example.shared.presentation.DetailEventActivity$Companion Companion
+com.example.shared.R$string: int quota_label
+com.example.shared.R$id: int tv_summary
+com.example.shared.R$id: int imgItemPhoto
+com.example.shared.presentation.NewsViewModel: kotlinx.coroutines.flow.StateFlow headlineNews
+com.example.shared.R$string: int link_label
+com.example.shared.R$string: int time_label
+com.example.shared.presentation.NewsViewModel: com.example.core.domain.usecase.NewsUseCase newsUseCase
+com.example.shared.R$id: int tvDeskripsi
+com.example.shared.presentation.DetailEventActivity: kotlin.Lazy detailEventViewModel$delegate
+com.example.shared.R$id: int tvItemDescription
+com.example.shared.R$id: int tvItemName
+com.example.shared.presentation.NewsAdapter: kotlin.jvm.functions.Function1 onBookmarkClick
+com.example.shared.R$id: int main
+com.example.shared.R$id: int tvPenyelenggara
+com.example.shared.R$id: int btnRegister
+com.example.shared.R$id: int iv_favorite
+com.example.shared.R$string: int organizer_label
+com.example.shared.presentation.DetailEventActivity: java.lang.String EXTRA_PERSON
+com.example.shared.R$id: int tvLink
+com.example.shared.R$drawable: int baseline_favorite_24
+com.example.shared.R$id: int tvQuota
+com.example.shared.R$id: int iv_bookmark
+com.example.shared.R$id: int tvWaktu
+com.example.shared.di.InjectionKt: org.koin.core.module.Module appModule
+com.example.shared.R$drawable: int baseline_favorite_border_24
+com.example.shared.R$layout: int activity_detail_event
+com.example.shared.R$layout: int item_news
+com.example.shared.R$id: int img_poster
+com.example.shared.presentation.NewsViewModel: kotlinx.coroutines.flow.StateFlow getHeadlineNews()
+com.example.shared.di.InjectionKt: com.example.core.domain.usecase.NewsUseCase appModule$lambda$7$lambda$4(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder)
+com.example.shared.di.InjectionKt: kotlin.Unit appModule$lambda$7(org.koin.core.module.Module)
+com.example.shared.presentation.NewsAdapter: <clinit>()
+com.example.shared.presentation.DetailEventActivity: DetailEventActivity()
+com.example.shared.presentation.NewsViewModel: void deleteNews(com.example.core.domain.model.News)
+com.example.shared.di.MyApplication: kotlin.Unit onCreate$lambda$0(com.example.shared.di.MyApplication,org.koin.core.KoinApplication)
+com.example.shared.presentation.NewsAdapter: void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int)
+com.example.shared.presentation.NewsViewModel: NewsViewModel(com.example.core.domain.usecase.NewsUseCase)
+com.example.shared.presentation.NewsViewModel: kotlinx.coroutines.flow.StateFlow getBookmarkedNews()
+com.example.shared.presentation.DetailEventActivity: void onCreate$lambda$2(com.example.shared.presentation.DetailEventActivity,android.view.View)
+com.example.shared.R$string: R$string()
+com.example.shared.presentation.DetailEventActivity: void onCreate$lambda$3(com.example.core.domain.model.News,com.example.shared.presentation.DetailEventActivity,android.view.View)
+com.example.shared.presentation.NewsAdapter: NewsAdapter(kotlin.jvm.functions.Function1)
+com.example.shared.R: R()
+com.example.shared.di.MyApplication: void onCreate()
+com.example.shared.presentation.NewsAdapter$MyViewHolder: void bind$lambda$0(com.example.core.domain.model.News,com.example.shared.presentation.NewsAdapter$MyViewHolder,android.view.View)
+com.example.shared.di.InjectionKt: com.example.core.data.NewsDatabase appModule$lambda$7$lambda$1(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder)
+com.example.shared.R$layout: R$layout()
+com.example.shared.presentation.NewsAdapter: void onBindViewHolder$lambda$0(com.example.shared.presentation.NewsAdapter,com.example.core.domain.model.News,int,android.view.View)
+com.example.shared.presentation.NewsViewModel: void fetchBookmarkedNews()
+com.example.shared.di.InjectionKt: com.example.shared.presentation.NewsViewModel appModule$lambda$7$lambda$6(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder)
+com.example.shared.presentation.DetailEventActivity: void onCreate$lambda$1(com.example.shared.presentation.DetailEventActivity,com.example.core.domain.model.News,android.view.View)
+com.example.shared.presentation.DetailEventActivity: com.example.shared.presentation.DetailEventViewModel getDetailEventViewModel()
+com.example.shared.presentation.NewsViewModel: void fetchHeadlineNews()
+com.example.shared.presentation.NewsAdapter: void onBindViewHolder(com.example.shared.presentation.NewsAdapter$MyViewHolder,int)
+com.example.shared.presentation.NewsAdapter: com.example.shared.presentation.NewsAdapter$MyViewHolder onCreateViewHolder(android.view.ViewGroup,int)
+com.example.shared.presentation.NewsViewModel: kotlinx.coroutines.flow.MutableStateFlow access$get_headlineNews$p(com.example.shared.presentation.NewsViewModel)
+com.example.shared.presentation.NewsViewModel: com.example.core.domain.usecase.NewsUseCase access$getNewsUseCase$p(com.example.shared.presentation.NewsViewModel)
+com.example.shared.presentation.NewsAdapter: androidx.recyclerview.widget.DiffUtil$ItemCallback access$getDIFF_CALLBACK$cp()
+com.example.shared.di.InjectionKt: com.example.core.domain.repository.INewsRepository appModule$lambda$7$lambda$3(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder)
+com.example.shared.presentation.NewsViewModel: kotlinx.coroutines.flow.MutableStateFlow access$get_bookmarkedNews$p(com.example.shared.presentation.NewsViewModel)
+com.example.shared.di.InjectionKt: com.example.core.data.NewsDao appModule$lambda$7$lambda$2(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder)
+com.example.shared.di.InjectionKt: com.example.core.data.service.ApiService appModule$lambda$7$lambda$0(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder)
+com.example.shared.di.InjectionKt: com.example.shared.presentation.DetailEventViewModel appModule$lambda$7$lambda$5(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder)
+com.example.shared.di.MyApplication: MyApplication()
+com.example.shared.presentation.NewsAdapter: androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int)
+com.example.shared.presentation.DetailEventActivity: void onCreate(android.os.Bundle)
+com.example.shared.presentation.NewsViewModel: void saveNews(com.example.core.domain.model.News)
+com.example.shared.R$id: R$id()
+com.example.shared.presentation.DetailEventActivity: void updateFavoriteIcon(boolean)
+com.example.shared.di.InjectionKt: org.koin.core.module.Module getAppModule()
+com.example.shared.di.InjectionKt: <clinit>()
+com.example.shared.presentation.DetailEventActivity: <clinit>()
+com.example.shared.R$drawable: R$drawable()

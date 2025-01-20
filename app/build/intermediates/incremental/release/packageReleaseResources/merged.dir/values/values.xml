@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dark_gray">#505050</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="my_dark_primary">#000000</color>
+    <color name="placeholder">#6FB6B6B6</color>
+    <string name="app_name">submisi awal</string>
+    <string name="back_button">backbutton</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="favorite_symbol">favorite symbol</string>
+    <string name="gambar_acara">gambar acara</string>
+    <string name="published_date">Published Date</string>
+    <string name="register">Register</string>
+    <string name="save_bookmark">Save Bookmark?</string>
+    <string name="settings_simbol">settings simbol</string>
+    <string name="submisi_awal">Submisi Awal</string>
+    <string name="title">Title</string>
+    <string name="title_favorite">Favorite</string>
+    <style name="Base.Theme.SubmisiAwal2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark_gray</item>
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+    <style name="Theme.SubmisiAwal2" parent="Base.Theme.SubmisiAwal2"/>
+</resources>

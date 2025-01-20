@@ -1,0 +1,6 @@
+com.example.shared.databinding.ItemNewsBinding:
+    public static com.example.shared.databinding.ItemNewsBinding inflate(android.view.LayoutInflater)
+com.example.shared.model.News$Creator
+com.example.shared.model.News
+com.example.shared.presentation.NewsAdapter$Companion:
+    public final androidx.recyclerview.widget.DiffUtil$ItemCallback getDIFF_CALLBACK()

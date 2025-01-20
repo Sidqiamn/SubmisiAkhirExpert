@@ -1,0 +1,23 @@
+
+-dontwarn java.lang.invoke.StringConcatFactory
+-keep class com.example.core.data.service.ApiService { *; }
+-keep class com.example.core.data.service.** { *; }
+-keepclassmembers class com.example.core.data.service.** { *; }
+-keep interface com.example.core.domain.repository.INewsRepository { *; }
+-keep class com.example.core.domain.repository.** { *; }
+-keepattributes *Annotation*
+-keepclassmembers class com.example.core.domain.repository.** { *; }
+-keep class com.example.core.domain.usecase.NewsUseCase { *; }
+-keep class com.example.core.domain.usecase.** { *; }
+-keepclassmembers class com.example.core.domain.usecase.** { *; }
+-keep class com.example.core.data.NewsRepository { *; }
+-keepclassmembers class com.example.core.data.NewsRepository { *; }
+-keep class com.example.core.data.** { *; }
+-keep class com.example.core.domain.Result$Success { *; }
+-keepclassmembers class com.example.core.domain.Result$Success { *; }
+-keepattributes *Annotation*
+-keep class com.example.core.domain.Result { *; }
+-keep class com.example.core.domain.model.News { *; }
+-keepclassmembers class com.example.core.domain.model.News { *; }
+-keep class com.example.core.domain.** { *; }
+-keep class com.example.core.utils.** { *; }

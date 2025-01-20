@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/xml_backup_rules.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_baseline_keyboard_backspace_24_white.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/baseline_keyboard_backspace_24_white.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_ic_broken_image_black.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/ic_broken_image_black.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/navigation_nav_graph_main.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/navigation/nav_graph_main.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_ic_error.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/ic_error.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_ic_bookmark_white.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/ic_bookmark_white.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_baseline_favorite_24.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/baseline_favorite_24.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_ic_refresh_black.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/ic_refresh_black.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_baseline_keyboard_backspace_24.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/baseline_keyboard_backspace_24.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/layout_activity_main.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_baseline_bookmark_24.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/baseline_bookmark_24.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_baseline_favorite_border_24.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/baseline_favorite_border_24.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_baseline_settings_24.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_ic_loading.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/ic_loading.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/layout_activity_settings.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_ic_bookmarked_white.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/ic_bookmarked_white.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/drawable_rounded_background.xml.flat",
+        "source": "com.example.submisiawal2.app-main-71:/drawable/rounded_background.xml"
+    },
+    {
+        "merged": "com.example.submisiawal2.app-debug-69:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.submisiawal2.app-main-71:/mipmap-mdpi/ic_launcher_round.webp"
+    }
+]

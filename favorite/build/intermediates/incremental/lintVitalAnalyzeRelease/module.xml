@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\ASUS\Downloads\submisiAwalExpert-master2\submisiAwalExpert-master\favorite"
+    name=":favorite"
+    type="DYNAMIC_FEATURE"
+    maven="submisiAwal(2):favorite:unspecified"
+    agpVersion="8.7.3"
+    buildFolder="build"
+    bootClassPath="D:\sdk-android\platforms\android-34\android.jar;D:\sdk-android\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

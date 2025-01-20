@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.core-release-54:/layout-v26/mtrl_calendar_month.xml",
+        "source": "com.example.core-material-1.12.0-40:/layout-v26/mtrl_calendar_month.xml"
+    },
+    {
+        "merged": "com.example.core-release-54:/layout-v26/abc_screen_toolbar.xml",
+        "source": "com.example.core-appcompat-1.7.0-35:/layout-v26/abc_screen_toolbar.xml"
+    }
+]

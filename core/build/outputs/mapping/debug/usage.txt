@@ -1,0 +1,5 @@
+com.example.core.BuildConfig:
+    public static final java.lang.String BASE_URL
+    public static final java.lang.String BUILD_TYPE
+    public static final java.lang.String LIBRARY_PACKAGE_NAME
+    public void <init>()

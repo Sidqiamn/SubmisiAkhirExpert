@@ -1,0 +1,300 @@
+# compiler: R8
+# compiler_version: 8.7.18
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 9dedd68
+# pg_map_hash: SHA-256 9dedd682167884a26d907a0cc9be04fbfdc6335189cfa73d1499dcbdc4dd6d0b
+com.example.shared.databinding.ActivityDetailEventBinding -> a.a:
+# {"id":"sourceFile","fileName":"ActivityDetailEventBinding.java"}
+    android.widget.ScrollView rootView -> a
+    android.widget.ImageButton backIcon -> b
+    android.widget.Button btnRegister -> c
+    android.widget.ImageView imgItemPhoto -> d
+    android.widget.ImageView ivFavorite -> e
+    android.widget.TextView tvDeskripsi -> f
+    android.widget.TextView tvItemDescription -> g
+    android.widget.TextView tvItemName -> h
+    android.widget.TextView tvLink -> i
+    android.widget.TextView tvPenyelenggara -> j
+    android.widget.TextView tvQuota -> k
+    android.widget.TextView tvWaktu -> l
+    1:14:void <init>(android.widget.ScrollView,android.widget.ImageButton,android.widget.Button,android.widget.ImageView,android.widget.ImageView,androidx.constraintlayout.widget.ConstraintLayout,android.widget.TextView,android.widget.TextView,android.widget.TextView,android.widget.TextView,android.widget.TextView,android.widget.TextView,android.widget.TextView):66:79 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/widget/ScrollView;Landroid/widget/ImageButton;Landroid/widget/Button;Landroid/widget/ImageView;Landroid/widget/ImageView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;)V"}
+    1:1:android.widget.ScrollView getRoot():85:85 -> getRoot
+    1:1:android.view.View getRoot():22 -> getRoot
+com.example.shared.databinding.ItemNewsBinding -> a.b:
+# {"id":"sourceFile","fileName":"ItemNewsBinding.java"}
+    androidx.cardview.widget.CardView rootView -> a
+    android.widget.ImageView imgPoster -> b
+    android.widget.ImageView ivBookmark -> c
+    android.widget.TextView tvItemTitle -> d
+    android.widget.TextView tvSummary -> e
+    1:6:void <init>(androidx.cardview.widget.CardView,android.widget.ImageView,android.widget.ImageView,android.widget.TextView,android.widget.TextView):36:41 -> <init>
+    1:1:androidx.cardview.widget.CardView getRoot():47:47 -> getRoot
+    1:1:android.view.View getRoot():19 -> getRoot
+com.example.shared.di.InjectionKt -> com.example.shared.di.InjectionKt:
+# {"id":"sourceFile","fileName":"Injection.kt"}
+    1:1:void <clinit>():14:14 -> <clinit>
+    1:12:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):69:80 -> appModule$lambda$7
+    13:46:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):79:112 -> appModule$lambda$7
+    47:80:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):111:144 -> appModule$lambda$7
+    81:114:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):143:176 -> appModule$lambda$7
+    115:148:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):175:208 -> appModule$lambda$7
+    149:161:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):207:219 -> appModule$lambda$7
+    162:381:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):25:244 -> appModule$lambda$7
+    382:391:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):243:252 -> appModule$lambda$7
+    392:643:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):26:277 -> appModule$lambda$7
+    644:653:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):276:285 -> appModule$lambda$7
+    654:654:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):27:27 -> appModule$lambda$7
+    1:1:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):16:16 -> appModule$lambda$7$lambda$0
+    1:1:com.example.core.data.service.ApiService appModule$lambda$7$lambda$0(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):16 -> appModule$lambda$7$lambda$0
+    1:1:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):18:18 -> appModule$lambda$7$lambda$1
+    1:1:com.example.core.data.NewsDatabase appModule$lambda$7$lambda$1(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):18 -> appModule$lambda$7$lambda$1
+    2:2:com.example.core.data.NewsDatabase appModule$lambda$7$lambda$1(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):34:34 -> appModule$lambda$7$lambda$1
+    3:3:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):18:18 -> appModule$lambda$7$lambda$1
+    3:3:com.example.core.data.NewsDatabase appModule$lambda$7$lambda$1(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):18 -> appModule$lambda$7$lambda$1
+    1:1:com.example.core.data.NewsDao appModule$lambda$7$lambda$2(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):39:39 -> appModule$lambda$7$lambda$2
+    2:2:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):19:19 -> appModule$lambda$7$lambda$2
+    2:2:com.example.core.data.NewsDao appModule$lambda$7$lambda$2(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):19 -> appModule$lambda$7$lambda$2
+    1:1:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):21:21 -> appModule$lambda$7$lambda$3
+    1:1:com.example.core.domain.repository.INewsRepository appModule$lambda$7$lambda$3(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):21 -> appModule$lambda$7$lambda$3
+    2:3:com.example.core.domain.repository.INewsRepository appModule$lambda$7$lambda$3(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):44:44 -> appModule$lambda$7$lambda$3
+    4:4:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):21:21 -> appModule$lambda$7$lambda$3
+    4:4:com.example.core.domain.repository.INewsRepository appModule$lambda$7$lambda$3(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):21 -> appModule$lambda$7$lambda$3
+    1:1:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):23:23 -> appModule$lambda$7$lambda$4
+    1:1:com.example.core.domain.usecase.NewsUseCase appModule$lambda$7$lambda$4(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):23 -> appModule$lambda$7$lambda$4
+    2:2:com.example.core.domain.usecase.NewsUseCase appModule$lambda$7$lambda$4(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):49:49 -> appModule$lambda$7$lambda$4
+    3:3:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):23:23 -> appModule$lambda$7$lambda$4
+    3:3:com.example.core.domain.usecase.NewsUseCase appModule$lambda$7$lambda$4(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):23 -> appModule$lambda$7$lambda$4
+    1:1:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):25:25 -> appModule$lambda$7$lambda$5
+    1:1:com.example.shared.presentation.DetailEventViewModel appModule$lambda$7$lambda$5(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):25 -> appModule$lambda$7$lambda$5
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lorg/koin/core/scope/Scope;Lorg/koin/core/parameter/ParametersHolder;)Lb/d;"}
+    2:2:com.example.shared.presentation.DetailEventViewModel appModule$lambda$7$lambda$5(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):54:54 -> appModule$lambda$7$lambda$5
+    3:3:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):25:25 -> appModule$lambda$7$lambda$5
+    3:3:com.example.shared.presentation.DetailEventViewModel appModule$lambda$7$lambda$5(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):25 -> appModule$lambda$7$lambda$5
+    1:1:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):26:26 -> appModule$lambda$7$lambda$6
+    1:1:com.example.shared.presentation.NewsViewModel appModule$lambda$7$lambda$6(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):26 -> appModule$lambda$7$lambda$6
+    2:2:com.example.shared.presentation.NewsViewModel appModule$lambda$7$lambda$6(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):59:59 -> appModule$lambda$7$lambda$6
+    3:3:kotlin.Unit appModule$lambda$7(org.koin.core.module.Module):26:26 -> appModule$lambda$7$lambda$6
+    3:3:com.example.shared.presentation.NewsViewModel appModule$lambda$7$lambda$6(org.koin.core.scope.Scope,org.koin.core.parameter.ParametersHolder):26 -> appModule$lambda$7$lambda$6
+    1:1:void <clinit>():14:14 -> getAppModule
+    1:1:org.koin.core.module.Module getAppModule():14 -> getAppModule
+com.example.shared.di.MyApplication -> com.example.shared.di.MyApplication:
+# {"id":"sourceFile","fileName":"MyApplication.kt"}
+    1:1:void <init>():7:7 -> <init>
+    1:2:void onCreate():9:10 -> onCreate
+    1:3:kotlin.Unit onCreate$lambda$0(com.example.shared.di.MyApplication,org.koin.core.KoinApplication):11:13 -> onCreate$lambda$0
+com.example.shared.presentation.DetailEventActivity -> com.example.shared.presentation.DetailEventActivity:
+# {"id":"sourceFile","fileName":"DetailEventActivity.kt"}
+    com.example.shared.presentation.DetailEventActivity$Companion Companion -> Companion
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lb/a;"}
+    com.example.shared.databinding.ActivityDetailEventBinding binding -> binding
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/a;"}
+    1:79:void <init>():18:96 -> <init>
+    80:80:com.example.shared.presentation.DetailEventViewModel getDetailEventViewModel():21:21 -> <init>
+    80:80:void <init>():21 -> <init>
+    1:1:com.example.shared.presentation.DetailEventViewModel getDetailEventViewModel():21:21 -> getDetailEventViewModel
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Lb/d;"}
+    1:5:void onCreate(android.os.Bundle):25:29 -> onCreate
+    6:6:com.example.shared.databinding.ActivityDetailEventBinding com.example.shared.databinding.ActivityDetailEventBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):96:96 -> onCreate
+    6:6:com.example.shared.databinding.ActivityDetailEventBinding com.example.shared.databinding.ActivityDetailEventBinding.inflate(android.view.LayoutInflater):90 -> onCreate
+    6:6:void onCreate(android.os.Bundle):29 -> onCreate
+    7:79:com.example.shared.databinding.ActivityDetailEventBinding com.example.shared.databinding.ActivityDetailEventBinding.bind(android.view.View):109:181 -> onCreate
+    7:79:com.example.shared.databinding.ActivityDetailEventBinding com.example.shared.databinding.ActivityDetailEventBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):100 -> onCreate
+    7:79:com.example.shared.databinding.ActivityDetailEventBinding com.example.shared.databinding.ActivityDetailEventBinding.inflate(android.view.LayoutInflater):90 -> onCreate
+    7:79:void onCreate(android.os.Bundle):29 -> onCreate
+    80:118:void onCreate(android.os.Bundle):29:67 -> onCreate
+    119:120:com.example.shared.databinding.ActivityDetailEventBinding com.example.shared.databinding.ActivityDetailEventBinding.bind(android.view.View):185:186 -> onCreate
+    119:120:com.example.shared.databinding.ActivityDetailEventBinding com.example.shared.databinding.ActivityDetailEventBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):100 -> onCreate
+    119:120:com.example.shared.databinding.ActivityDetailEventBinding com.example.shared.databinding.ActivityDetailEventBinding.inflate(android.view.LayoutInflater):90 -> onCreate
+    119:120:void onCreate(android.os.Bundle):29 -> onCreate
+    1:4:void onCreate$lambda$1(com.example.shared.presentation.DetailEventActivity,com.example.core.domain.model.News,android.view.View):57:60 -> onCreate$lambda$1
+    1:1:void onCreate$lambda$2(com.example.shared.presentation.DetailEventActivity,android.view.View):64:64 -> onCreate$lambda$2
+    1:3:void onCreate$lambda$3(com.example.core.domain.model.News,com.example.shared.presentation.DetailEventActivity,android.view.View):68:70 -> onCreate$lambda$3
+    4:18:void com.example.shared.presentation.DetailEventViewModel.updateBookmark(com.example.core.domain.model.News,boolean):0:14 -> onCreate$lambda$3
+    4:18:void onCreate$lambda$3(com.example.core.domain.model.News,com.example.shared.presentation.DetailEventActivity,android.view.View):70 -> onCreate$lambda$3
+    1:6:void updateFavoriteIcon(boolean):77:82 -> updateFavoriteIcon
+    7:7:void updateFavoriteIcon(boolean):81:81 -> updateFavoriteIcon
+com.example.shared.presentation.DetailEventActivity$Companion -> b.a:
+# {"id":"sourceFile","fileName":"DetailEventActivity.kt"}
+    1:1:void <init>():86:86 -> <init>
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()V"}
+com.example.shared.presentation.DetailEventActivity$special$$inlined$viewModel$default$1 -> b.b:
+# {"id":"sourceFile","fileName":"ActivityVM.kt"}
+    androidx.activity.ComponentActivity $this_viewModel -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lcom/example/shared/presentation/DetailEventActivity;"}
+    1:1:void <init>(androidx.activity.ComponentActivity,org.koin.core.qualifier.Qualifier,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/example/shared/presentation/DetailEventActivity;)V"}
+    1:33:androidx.lifecycle.ViewModel invoke():47:79 -> invoke
+    1:33:java.lang.Object invoke():46 -> invoke
+    34:39:androidx.lifecycle.ViewModel invoke():75:80 -> invoke
+    34:39:java.lang.Object invoke():46 -> invoke
+com.example.shared.presentation.DetailEventViewModel -> b.d:
+# {"id":"sourceFile","fileName":"DetailEventViewModel.kt"}
+    com.example.core.domain.usecase.NewsUseCase newsUseCase -> a
+    1:1:void <init>(com.example.core.domain.usecase.NewsUseCase):11:11 -> <init>
+    2:2:void <init>(com.example.core.domain.usecase.NewsUseCase):10:10 -> <init>
+com.example.shared.presentation.DetailEventViewModel$updateBookmark$1 -> b.c:
+# {"id":"sourceFile","fileName":"DetailEventViewModel.kt"}
+    int label -> a
+    com.example.shared.presentation.DetailEventViewModel this$0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lb/d;"}
+    com.example.core.domain.model.News $news -> c
+    boolean $isBookmarked -> d
+    1:1:void <init>(com.example.shared.presentation.DetailEventViewModel,com.example.core.domain.model.News,boolean,kotlin.coroutines.Continuation):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lb/d;Lcom/example/core/domain/model/News;ZLkotlin/coroutines/Continuation;)V"}
+    1:1:kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> create
+    1:1:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0:0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    1:3:java.lang.Object invokeSuspend(java.lang.Object):14:16 -> invokeSuspend
+    4:4:com.example.core.domain.usecase.NewsUseCase com.example.shared.presentation.DetailEventViewModel.access$getNewsUseCase$p(com.example.shared.presentation.DetailEventViewModel):9:9 -> invokeSuspend
+    4:4:java.lang.Object invokeSuspend(java.lang.Object):16 -> invokeSuspend
+    5:10:java.lang.Object invokeSuspend(java.lang.Object):16:21 -> invokeSuspend
+com.example.shared.presentation.NewsAdapter -> com.example.shared.presentation.NewsAdapter:
+# {"id":"sourceFile","fileName":"NewsAdapter.kt"}
+    com.example.shared.presentation.NewsAdapter$Companion Companion -> Companion
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lb/f;"}
+    1:1:void <clinit>():72:72 -> <clinit>
+    1:1:void <init>(kotlin.jvm.functions.Function1):20:20 -> <init>
+    2:2:void <init>(kotlin.jvm.functions.Function1):19:19 -> <init>
+    1:1:androidx.recyclerview.widget.DiffUtil$ItemCallback access$getDIFF_CALLBACK$cp():19:19 -> access$getDIFF_CALLBACK$cp
+    1:1:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):19:19 -> onBindViewHolder
+    2:10:void onBindViewHolder(com.example.shared.presentation.NewsAdapter$MyViewHolder,int):29:37 -> onBindViewHolder
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lb/g;I)V"}
+    11:11:void onBindViewHolder(com.example.shared.presentation.NewsAdapter$MyViewHolder,int):34:34 -> onBindViewHolder
+    12:19:void onBindViewHolder(com.example.shared.presentation.NewsAdapter$MyViewHolder,int):33:40 -> onBindViewHolder
+    1:3:void onBindViewHolder$lambda$0(com.example.shared.presentation.NewsAdapter,com.example.core.domain.model.News,int,android.view.View):42:44 -> onBindViewHolder$lambda$0
+    1:1:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):19:19 -> onCreateViewHolder
+    2:2:com.example.shared.presentation.NewsAdapter$MyViewHolder onCreateViewHolder(android.view.ViewGroup,int):24:24 -> onCreateViewHolder
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/view/ViewGroup;I)Lb/g;"}
+    3:3:com.example.shared.databinding.ItemNewsBinding com.example.shared.databinding.ItemNewsBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):58:58 -> onCreateViewHolder
+    3:3:com.example.shared.presentation.NewsAdapter$MyViewHolder onCreateViewHolder(android.view.ViewGroup,int):24 -> onCreateViewHolder
+    4:28:com.example.shared.databinding.ItemNewsBinding com.example.shared.databinding.ItemNewsBinding.bind(android.view.View):71:95 -> onCreateViewHolder
+    4:28:com.example.shared.databinding.ItemNewsBinding com.example.shared.databinding.ItemNewsBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):62 -> onCreateViewHolder
+    4:28:com.example.shared.presentation.NewsAdapter$MyViewHolder onCreateViewHolder(android.view.ViewGroup,int):24 -> onCreateViewHolder
+    29:30:com.example.shared.presentation.NewsAdapter$MyViewHolder onCreateViewHolder(android.view.ViewGroup,int):24:25 -> onCreateViewHolder
+    31:32:com.example.shared.databinding.ItemNewsBinding com.example.shared.databinding.ItemNewsBinding.bind(android.view.View):98:99 -> onCreateViewHolder
+    31:32:com.example.shared.databinding.ItemNewsBinding com.example.shared.databinding.ItemNewsBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):62 -> onCreateViewHolder
+    31:32:com.example.shared.presentation.NewsAdapter$MyViewHolder onCreateViewHolder(android.view.ViewGroup,int):24 -> onCreateViewHolder
+com.example.shared.presentation.NewsAdapter$Companion -> b.f:
+# {"id":"sourceFile","fileName":"NewsAdapter.kt"}
+    1:1:void <init>():70:70 -> <init>
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()V"}
+com.example.shared.presentation.NewsAdapter$Companion$DIFF_CALLBACK$1 -> b.e:
+# {"id":"sourceFile","fileName":"NewsAdapter.kt"}
+    1:1:void <init>():72:72 -> <init>
+    1:1:boolean areContentsTheSame(java.lang.Object,java.lang.Object):72:72 -> areContentsTheSame
+    2:81:boolean areContentsTheSame(com.example.core.domain.model.News,com.example.core.domain.model.News):0:79 -> areContentsTheSame
+    2:81:boolean areContentsTheSame(java.lang.Object,java.lang.Object):72 -> areContentsTheSame
+    1:1:boolean areItemsTheSame(java.lang.Object,java.lang.Object):72:72 -> areItemsTheSame
+    2:76:boolean areItemsTheSame(com.example.core.domain.model.News,com.example.core.domain.model.News):0:74 -> areItemsTheSame
+    2:76:boolean areItemsTheSame(java.lang.Object,java.lang.Object):72 -> areItemsTheSame
+com.example.shared.presentation.NewsAdapter$MyViewHolder -> b.g:
+# {"id":"sourceFile","fileName":"NewsAdapter.kt"}
+    com.example.shared.databinding.ItemNewsBinding binding -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/b;"}
+    1:1:androidx.cardview.widget.CardView com.example.shared.databinding.ItemNewsBinding.getRoot():47:47 -> <init>
+    1:1:void <init>(com.example.shared.databinding.ItemNewsBinding):49 -> <init>
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/b;)V"}
+    2:2:void <init>(com.example.shared.databinding.ItemNewsBinding):48:48 -> <init>
+    1:1:com.example.shared.databinding.ItemNewsBinding getBinding():48:48 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()La/b;"}
+    2:10:void bind(com.example.core.domain.model.News):52:60 -> a
+    11:15:void bind$lambda$0(com.example.core.domain.model.News,com.example.shared.presentation.NewsAdapter$MyViewHolder,android.view.View):61:65 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/example/core/domain/model/News;Lb/g;Landroid/view/View;)V"}
+com.example.shared.presentation.NewsViewModel -> com.example.shared.presentation.NewsViewModel:
+# {"id":"sourceFile","fileName":"NewsViewModel.kt"}
+    1:1:void <init>(com.example.core.domain.usecase.NewsUseCase):15:15 -> <init>
+    2:13:void <init>(com.example.core.domain.usecase.NewsUseCase):14:25 -> <init>
+    1:1:com.example.core.domain.usecase.NewsUseCase access$getNewsUseCase$p(com.example.shared.presentation.NewsViewModel):12:12 -> access$getNewsUseCase$p
+    1:1:kotlinx.coroutines.flow.MutableStateFlow access$get_bookmarkedNews$p(com.example.shared.presentation.NewsViewModel):12:12 -> access$get_bookmarkedNews$p
+    1:1:kotlinx.coroutines.flow.MutableStateFlow access$get_headlineNews$p(com.example.shared.presentation.NewsViewModel):12:12 -> access$get_headlineNews$p
+    1:1:void deleteNews(com.example.core.domain.model.News):51:51 -> deleteNews
+    1:1:void fetchBookmarkedNews():37:37 -> fetchBookmarkedNews
+    1:1:void fetchHeadlineNews():29:29 -> fetchHeadlineNews
+    1:1:kotlinx.coroutines.flow.StateFlow getBookmarkedNews():21:21 -> getBookmarkedNews
+    1:1:kotlinx.coroutines.flow.StateFlow getHeadlineNews():18:18 -> getHeadlineNews
+    1:1:void saveNews(com.example.core.domain.model.News):45:45 -> saveNews
+com.example.shared.presentation.NewsViewModel$deleteNews$1 -> b.h:
+# {"id":"sourceFile","fileName":"NewsViewModel.kt"}
+    int label -> a
+    com.example.shared.presentation.NewsViewModel this$0 -> b
+    com.example.core.domain.model.News $news -> c
+    1:1:void <init>(com.example.shared.presentation.NewsViewModel,com.example.core.domain.model.News,kotlin.coroutines.Continuation):0:0 -> <init>
+    1:1:kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> create
+    1:1:kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> invoke
+    1:1:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    2:2:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0:0 -> invoke
+    2:2:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    1:3:java.lang.Object invokeSuspend(java.lang.Object):51:53 -> invokeSuspend
+com.example.shared.presentation.NewsViewModel$fetchBookmarkedNews$1 -> b.k:
+# {"id":"sourceFile","fileName":"NewsViewModel.kt"}
+    int label -> a
+    com.example.shared.presentation.NewsViewModel this$0 -> b
+    1:1:void <init>(com.example.shared.presentation.NewsViewModel,kotlin.coroutines.Continuation):0:0 -> <init>
+    1:1:kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> create
+    1:1:kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> invoke
+    1:1:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    2:2:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0:0 -> invoke
+    2:2:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    1:5:java.lang.Object invokeSuspend(java.lang.Object):37:41 -> invokeSuspend
+com.example.shared.presentation.NewsViewModel$fetchBookmarkedNews$1$1 -> b.i:
+# {"id":"sourceFile","fileName":"NewsViewModel.kt"}
+    com.example.shared.presentation.NewsViewModel this$0 -> a
+    1:1:void <init>(com.example.shared.presentation.NewsViewModel,kotlin.coroutines.Continuation):0:0 -> <init>
+    1:1:java.lang.Object invoke(kotlinx.coroutines.flow.FlowCollector,java.lang.Throwable,kotlin.coroutines.Continuation):0:0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object):0 -> invoke
+    1:1:java.lang.Object invokeSuspend(java.lang.Object):39:39 -> invokeSuspend
+com.example.shared.presentation.NewsViewModel$fetchBookmarkedNews$1$2 -> b.j:
+# {"id":"sourceFile","fileName":"NewsViewModel.kt"}
+    com.example.shared.presentation.NewsViewModel this$0 -> a
+    1:1:void <init>(com.example.shared.presentation.NewsViewModel):0:0 -> <init>
+    1:1:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation):40:40 -> emit
+    2:2:java.lang.Object emit(java.util.List,kotlin.coroutines.Continuation):40:40 -> emit
+    2:2:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation):40 -> emit
+com.example.shared.presentation.NewsViewModel$fetchHeadlineNews$1 -> b.n:
+# {"id":"sourceFile","fileName":"NewsViewModel.kt"}
+    int label -> a
+    com.example.shared.presentation.NewsViewModel this$0 -> b
+    1:1:void <init>(com.example.shared.presentation.NewsViewModel,kotlin.coroutines.Continuation):0:0 -> <init>
+    1:1:kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> create
+    1:1:kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> invoke
+    1:1:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    2:2:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0:0 -> invoke
+    2:2:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    1:5:java.lang.Object invokeSuspend(java.lang.Object):29:33 -> invokeSuspend
+com.example.shared.presentation.NewsViewModel$fetchHeadlineNews$1$1 -> b.l:
+# {"id":"sourceFile","fileName":"NewsViewModel.kt"}
+    java.lang.Object L$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/lang/Throwable;"}
+    com.example.shared.presentation.NewsViewModel this$0 -> b
+    1:1:void <init>(com.example.shared.presentation.NewsViewModel,kotlin.coroutines.Continuation):0:0 -> <init>
+    1:1:java.lang.Object invoke(kotlinx.coroutines.flow.FlowCollector,java.lang.Throwable,kotlin.coroutines.Continuation):0:0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object):0 -> invoke
+    1:1:java.lang.Object invokeSuspend(java.lang.Object):31:31 -> invokeSuspend
+com.example.shared.presentation.NewsViewModel$fetchHeadlineNews$1$2 -> b.m:
+# {"id":"sourceFile","fileName":"NewsViewModel.kt"}
+    com.example.shared.presentation.NewsViewModel this$0 -> a
+    1:1:void <init>(com.example.shared.presentation.NewsViewModel):0:0 -> <init>
+    1:1:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation):32:32 -> emit
+    2:2:java.lang.Object emit(com.example.core.domain.Result,kotlin.coroutines.Continuation):32:32 -> emit
+    2:2:java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation):32 -> emit
+com.example.shared.presentation.NewsViewModel$saveNews$1 -> b.o:
+# {"id":"sourceFile","fileName":"NewsViewModel.kt"}
+    int label -> a
+    com.example.shared.presentation.NewsViewModel this$0 -> b
+    com.example.core.domain.model.News $news -> c
+    1:1:void <init>(com.example.shared.presentation.NewsViewModel,com.example.core.domain.model.News,kotlin.coroutines.Continuation):0:0 -> <init>
+    1:1:kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> create
+    1:1:kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> invoke
+    1:1:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    2:2:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0:0 -> invoke
+    2:2:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    1:3:java.lang.Object invokeSuspend(java.lang.Object):45:47 -> invokeSuspend

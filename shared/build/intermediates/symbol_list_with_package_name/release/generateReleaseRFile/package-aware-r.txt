@@ -1,0 +1,25 @@
+com.example.shared
+drawable baseline_favorite_24
+drawable baseline_favorite_border_24
+id backIcon
+id btnRegister
+id imgItemPhoto
+id img_poster
+id iv_bookmark
+id iv_favorite
+id main
+id tvDeskripsi
+id tvItemDescription
+id tvItemName
+id tvLink
+id tvPenyelenggara
+id tvQuota
+id tvWaktu
+id tv_item_title
+id tv_summary
+layout activity_detail_event
+layout item_news
+string link_label
+string organizer_label
+string quota_label
+string time_label

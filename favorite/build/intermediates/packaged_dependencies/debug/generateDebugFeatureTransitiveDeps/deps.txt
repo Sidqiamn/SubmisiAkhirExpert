@@ -1,0 +1,1 @@
+:favorite::debug;Capability: group='submisiAwal(2)', name='favorite'
